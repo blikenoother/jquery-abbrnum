@@ -35,7 +35,7 @@ into something like this:
 <label class="abbr-number">12k</label>
 <input type="text" class="abbr-number" value="9.9m" decplaces="1">
 ```
-You can add attribute `decplaces` to element for number of **decimal letter** like above example or you can pass in option like this (if you will pass both then option decPlaces will be overwritten by attribute decplaces):
+You can add attribute `decplaces` to element for number of *decimal letter* like above example or you can pass in option like this (if you will pass both then option decPlaces will be overwritten by attribute decplaces):
 
 ```html
 <script type="text/javascript">
@@ -47,4 +47,4 @@ You can add attribute `decplaces` to element for number of **decimal letter** li
 </script>
 ```
 
-Copyright (c) 2013, Chirag (blikenoother -[at]- gmail [*dot*] com)
+Copyright (c) 2013, Chirag (blikenoother -[at]- gmail [dot] com)
