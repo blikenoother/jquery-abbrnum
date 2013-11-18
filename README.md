@@ -9,11 +9,10 @@ First, load jQuery and the plugin:
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
-<script src="jquery.abbrnum.js" type="text/javascript"></script>
+<script src="jquery.abbrnum.min.js" type="text/javascript"></script>
 ```
 
-Now, let's attach it to your number container element on DOM ready - put this in the head
-section:
+Now, let's attach it to your number container element on DOM ready - put this after above JS include:
 
 ```html
 <script type="text/javascript">
@@ -46,6 +45,6 @@ You can add attribute `decplaces` to element for number of **decimal letter** li
      });
    });
 </script>
-
+```
 
 Copyright (c) 2013, Chirag (blikenoother -[at]- gmail [*dot*] com)
