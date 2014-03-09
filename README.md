@@ -17,7 +17,7 @@ Now, let's attach it to your number container element on DOM ready - put this af
 ```html
 <script type="text/javascript">
    jQuery(document).ready(function() {
-     $("abbr-number").abbrNum();
+     $(".abbr-number").abbrNum();
    });
 </script>
 ```
@@ -40,7 +40,7 @@ You can add attribute `decplaces` to element for number of *decimal letter* like
 ```html
 <script type="text/javascript">
    jQuery(document).ready(function() {
-     $("abbr-number").abbrNum({
+     $(".abbr-number").abbrNum({
      	decPlaces:1
      });
    });
